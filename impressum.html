@@ -98,6 +98,7 @@
     }
     .site-footer strong { color: var(--navy); }
     .site-footer p { margin: .4rem 0 0; }
+    .footer-links { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 1rem; }
     :focus-visible { outline: 3px solid var(--gold); outline-offset: 4px; }
     @media (max-width: 680px) {
       .site-header, .site-footer { align-items: flex-start; flex-direction: column; }
@@ -164,7 +165,10 @@
       <strong>Helios Schlaflabor</strong>
       <p>Betreiber: HELIOS Technologie GmbH<br>Innsbrucker Bundesstraße 75 · 5020 Salzburg</p>
     </div>
-    <a href="index.html">Zur Startseite</a>
+    <div class="footer-links">
+      <a href="index.html">Zur Startseite</a>
+      <a href="datenschutz.html">Datenschutz</a>
+    </div>
   </footer>
 </body>
 </html>
